@@ -30,3 +30,20 @@
 # AS2
 <img width="1277" height="638" alt="スクリーンショット 2026-11-22 112350" src="https://github.com/user-attachments/assets/40cdd2da-c610-413e-9fbc-b0502fd00f19" />
 
+## Area0 左
+### ・Router15
+  AS2のASBR
+### ・L3Switch3
+　Area0の内部ルーター、PC側にpassive-interface
+### ・L3Switch4
+　Area0の内部ルーター、PC側にpassive-interface
+## Area0 右
+### ・L3Switch8
+　Area0の内部ルーター、PC側にpassive-interface、Router4とVirtual-link
+### ・L3Switch9
+  Area0の内部ルーター、PC側にpassive-interface
+## Area1
+### ・L3Switch11
+　Area1の内部ルーター
+### ・L3Switch5,6,7
+  Area1の内部ルーター、PC側にpassive-interface
